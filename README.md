@@ -135,16 +135,7 @@ Executável nativo (requer GraalVM, ou use o build em container):
 
 - Não versione credenciais reais. Use variáveis de ambiente ou um arquivo `.env` listado no `.gitignore`.
 - A senha `1234` do `docker-compose.yaml` serve apenas para desenvolvimento local.
-- `schema-management.strategy=update` é indicado só para desenvolvimento. Em produção, use migrations (Flyway ou Liquibase).
-
-## Próximos passos
-
-- [ ] Endpoints de atualização (`PUT`/`PATCH`) e remoção (`DELETE`)
-- [ ] DTOs de entrada e saída
-- [ ] Validação com Hibernate Validator
-- [ ] Migrations com Flyway
-- [ ] Testes automatizados
-
+- `schema-management.strategy=update` é indicado só para desenvolvimento.
 ## Autor
 
 **Lucas Sanches**: [@LucasSanchesM](https://github.com/LucasSanchesM)
